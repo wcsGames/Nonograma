@@ -1,0 +1,25 @@
+.bigInstructions {
+  position: absolute;
+  top: 5px;
+  right: 50px;
+}
+
+@media screen and (max-width: 426px) {
+  .bigInstructions {
+    right: 20px;
+  }
+  .modal-content {
+    margin-top: 40px !important;
+
+    & p {
+      margin-bottom: 0px !important;
+    }
+  }
+  .modal-footer {
+    padding: 0.5px !important;
+  }
+  .modal-body {
+    font-size: small !important;
+    padding: 9px !important;
+  }
+}
